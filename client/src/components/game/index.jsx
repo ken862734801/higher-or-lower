@@ -21,7 +21,8 @@ const getRandomIndex = (data) =>{
 }
 
 function Game (){
-    const apiUrl = "/api/";
+    // const apiUrl = "/api/";
+    const apiUrl = "https://higher-lower-api.onrender.com/api";
     const [showStartScreen, setShowStartScreen] = useState(true);
     const [data, setData] = useState([]);
     const [currentSong, setCurrentSong] = useState({});
