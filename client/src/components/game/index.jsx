@@ -242,7 +242,7 @@ function Game (){
                         </div>
                     {displayNextSong && (
                         // counter animation
-                        <CountUp start={nextSong.value * 0.95} end={nextSong.value} duration={2} separator=",">
+                        <CountUp start={nextSong.value * 0.95} end={nextSong.value} duration={2} separator="," delay={0}>
                             {({ countUpRef}) => (
                                 <h3 className="card-streams" ref={countUpRef}/>
                             )}
